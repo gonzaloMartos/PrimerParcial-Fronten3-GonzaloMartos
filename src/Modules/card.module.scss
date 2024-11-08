@@ -1,0 +1,15 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem;
+    h2{
+        color: rgb(71, 71, 248);
+    }
+    p{
+        font-weight: bold;
+        color: black !important;
+        font-size: 20px !important;
+    }
+}

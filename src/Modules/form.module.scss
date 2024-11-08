@@ -1,0 +1,49 @@
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        label{
+            font-weight: bold;
+            color: rgb(67, 142, 255);
+        }
+        input{
+            width: 150px;
+            height: 20px;
+            text-align: center;
+            border: 2px solid rgb(0, 123, 255);
+            border-radius: 2rem;
+        }
+        button{
+            width: 80px;
+            height: 30px;
+            border: 2px solid rgb(0, 84, 0);
+            font-weight: bold;
+            background-color: rgba(0, 128, 0, 0.829);
+            border-radius: 0.5rem;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgba(0, 128, 0, 0.623);
+        }
+    }
+    p{
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+    }
+    
+}

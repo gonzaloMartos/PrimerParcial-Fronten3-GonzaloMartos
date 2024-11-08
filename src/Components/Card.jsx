@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import styles from "../Modules/card.module.scss"
 
-const Card = () => {
+const Card = ({ nombre, apellido }) => {
   return (
-    <div>Hola, soy uan tarjeta</div>
-  )
-}
+    <div className={styles.div}>
+      <h2>Información Ingresada</h2>
+      <p>Nombre: {nombre}</p>
+      <p>Apellido: {apellido}</p>
+    </div>
+  );
+};
 
-export default Card
+export default Card;
